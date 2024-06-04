@@ -1,0 +1,1 @@
+web: ./build/install/putra.pradio.ktor-pokemon/bin/putra.pradio.ktor-pokemon
