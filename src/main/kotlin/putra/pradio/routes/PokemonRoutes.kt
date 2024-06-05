@@ -35,7 +35,7 @@ fun Route.pokemonRoutes() {
             if (name == null || attempt == null) {
                 call.respondText("Bad Request", status = HttpStatusCode.BadRequest)
             } else {
-                val rename = "$name-${nextFibonacci(attempt.toInt() - 1)}"
+                val rename = "$name-${nextFibonacci(attempt.toInt())}"
                 val renameResponse = RenameResponse(
                     message = "Success",
                     result = rename
